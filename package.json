@@ -1,0 +1,34 @@
+{
+  "name": "closecode-website",
+  "version": "1.0.0",
+  "description": "Official website for Closecode Technologies LLP - A next-generation technology innovation studio",
+  "main": "public/index.html",
+  "scripts": {
+    "start": "live-server --port=3000 --host=0.0.0.0",
+    "dev": "live-server --port=3000 --host=0.0.0.0 --watch=css,js",
+    "build": "echo 'Build process for static site'",
+    "validate": "html-validate index.html"
+  },
+  "keywords": [
+    "closecode",
+    "ai",
+    "saas",
+    "technology",
+    "innovation",
+    "website"
+  ],
+  "author": "Closecode Technologies LLP",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "html-validate": "^8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/closecode/website.git"
+  },
+  "homepage": "https://closecode.io",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
